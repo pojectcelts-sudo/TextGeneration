@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Training artifacts / outputs
+grammora_out/
+*.pt
+*.ckpt
+grammora_bpe.model
+grammora_bpe.vocab
+_tok_corpus.txt
+
+# Data (keep large datasets out of git)
+*.jsonl
